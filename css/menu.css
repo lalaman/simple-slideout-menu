@@ -1,0 +1,85 @@
+body, html {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 12pt;
+	color: #2e2e2e;
+}
+
+.container {
+	text-align: center;
+	margin-top: 20%;
+}
+
+.title {
+	font-size: 40pt;
+	font-weight: 200;
+	margin-bottom: 2%;
+}
+
+.menu-button:link, .menu-button:visited {
+	color: #ffffff;
+	padding: 1% 2%;
+	background-color: #3a5a8d;
+	text-decoration: none;
+	border-radius: 3px;
+    outline: none;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-tap-highlight-color: transparent;
+}
+
+.menu-active:active {
+	background-color: #3a5a8d;
+    outline: none;
+}
+
+.menu-button:hover {
+	opacity: 0.85;
+    z-index: 1;
+    outline: none;
+}
+
+
+/* Simple Menu
+****************************************/
+nav.menu {
+	background: #3a5a8d;
+	position: fixed;
+    z-index: 99;
+	width: 300px;
+	height: 100%;
+	top: 0;
+	left: -300px;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+.menu-open {
+	left: 0 !important;
+}
+
+.menu-title {
+	text-align: center;
+	margin: 10% 0;
+	color: #ffffff;
+	font-size: 20pt;
+	font-weight: 200;
+	text-transform: uppercase;
+}
+
+.menu-link {
+	display: block;
+	padding: 5% 10%;
+	text-decoration: none;
+	color: #ffffff;
+	outline: none;
+}
+
+.menu-link:hover {
+	color: yellow;
+	background-color: #4f75ae;
+}

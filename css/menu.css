@@ -58,6 +58,15 @@ nav.menu {
 	transition: all 0.3s ease;
 }
 
+#close-menu {
+	float: right;
+	color: #ffffff;
+	font-size: 20pt;
+	margin: 20px 30px;
+	padding: 10px 15px;
+	cursor: pointer;
+}
+
 .menu-open {
 	left: 0 !important;
 }

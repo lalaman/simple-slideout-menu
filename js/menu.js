@@ -11,13 +11,20 @@ function toggleClass(element, className) {
 window.onload = function () {
     "use strict";
     
-    var menuButton, menu;
+    var menuButton, closeMenu, menu;
     
 	menuButton = document.getElementById("menu-button");
+	closeMenu = document.getElementById('close-menu');
 	menu = document.getElementById('menu');
 	
 	menuButton.onclick = function () {
 		toggleClass(menu, 'menu-open');
 		return false;
 	};
+	
+	closeMenu.onclick = function() {
+		toggleClass(menu, 'menu-open');
+		return false;
+	};
+	
 };

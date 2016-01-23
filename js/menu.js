@@ -11,10 +11,8 @@ function toggleClass(element, className) {
 window.onload = function () {
     "use strict";
     
-    var menuButton, closeMenu, menu;
-    
-	menuButton = document.getElementById("menu-button");
-	closeMenu = document.getElementById('close-menu');
+    var menuButton = document.getElementById("menu-button"),
+	closeMenu = document.getElementById('close-menu'),
 	menu = document.getElementById('menu');
 	
 	menuButton.onclick = function () {
